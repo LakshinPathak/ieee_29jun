@@ -112,7 +112,7 @@
   </head>
 
   <body>
-    <nav
+    <!-- <nav
       class="navbar"
       role="navigation"
       style="
@@ -142,7 +142,6 @@
             style="padding: 0 0.75rem; max-height: 50px"
           />
 
-          <!-- <div class="navbar-item has-text-black-light">IEEE SBNU</div> -->
         </a>
         <a
           role="button"
@@ -173,10 +172,50 @@
           <a href="Past Events\Home.html" class="navbar-item">
             <div class="navbar-item has-text-black-light">Past Events</div>
           </a>
+        
+        </div>
+      </div>
+    </nav> -->
+
+
+    <nav class="navbar d-flex justify-content-between" role="navigation" style="
+        background-color: rgb(92, 189, 246);
+        z-index: 10000000;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      " aria-label="main navigation">
+      <div class="navbar-brand d-flex justify-content-between">
+        <a class="navbar-item">
+          <img src="assets/images/logo.png" alt="SBNU LOGO" style="padding: 0 0.75rem" />
+          <img src="assets/images/nirma1.jpeg" alt="Nirma LOGO" style="padding: 0 0.75rem; max-height: 40px;" />
+          <img src="assets/images/IEEEWIE_Gujarat.png" alt="WIE LOGO" style="padding: 0 0.75rem; max-height: 50px;" />
+
+          <!-- <div class="navbar-item has-text-black-light">IEEE SBNU</div> -->
+        </a>
+
+      </div>
+      <div>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu" style="background-color: rgb(92, 189, 246)">
+        <div class="navbar-start">
+
+          <a href="index.html" class="navbar-item">
+            <div class="navbar-item has-text-black-light">
+              Home</div>
+          </a>
+          <a href="Past Events\Home.html" class="navbar-item">
+            <div class="navbar-item has-text-black-light"> Past Events</div>
+          </a>
           <!-- <a href="#team" class="navbar-item">
             <div class="navbar-item has-text-black-light">Team</div>
-          </a>
-          <a href="#chapters" class="navbar-item">
+          </a> -->
+          <!-- <a href="#chapters" class="navbar-item">
             <div class="navbar-item has-text-black-light">
               Chapters & Sub Chapters
             </div>
@@ -186,7 +225,14 @@
           </a> -->
         </div>
       </div>
+
+
+
     </nav>
+
+
+
+
 
     <header style="padding-top: 10vh; z-index: 5000" id="about" class="mb-5">
       <div class="">
